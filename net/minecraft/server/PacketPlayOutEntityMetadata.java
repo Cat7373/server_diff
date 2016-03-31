@@ -26,7 +26,7 @@ public class PacketPlayOutEntityMetadata implements Packet<PacketListenerPlayOut
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         DataWatcher.a(this.b, packetdataserializer);
     }
 

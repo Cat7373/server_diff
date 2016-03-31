@@ -20,7 +20,7 @@ public class PacketPlayOutAnimation implements Packet<PacketListenerPlayOut> {
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.writeByte(this.b);
     }
 

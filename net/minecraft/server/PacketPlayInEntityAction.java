@@ -17,9 +17,9 @@ public class PacketPlayInEntityAction implements Packet<PacketListenerPlayIn> {
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.a((Enum) this.animation);
-        packetdataserializer.b(this.c);
+        packetdataserializer.d(this.c);
     }
 
     public void a(PacketListenerPlayIn packetlistenerplayin) {

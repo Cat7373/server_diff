@@ -23,7 +23,7 @@ public class PacketPlayOutBlockBreakAnimation implements Packet<PacketListenerPl
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.a(this.b);
         packetdataserializer.writeByte(this.c);
     }

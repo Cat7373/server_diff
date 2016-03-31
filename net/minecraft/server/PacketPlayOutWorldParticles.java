@@ -71,7 +71,7 @@ public class PacketPlayOutWorldParticles implements Packet<PacketListenerPlayOut
         int i = this.a.d();
 
         for (int j = 0; j < i; ++j) {
-            packetdataserializer.b(this.k[j]);
+            packetdataserializer.d(this.k[j]);
         }
 
     }

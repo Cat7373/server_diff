@@ -17,7 +17,7 @@ public class PacketPlayInChat implements Packet<PacketListenerPlayIn> {
     }
 
     public void a(PacketDataSerializer packetdataserializer) throws IOException {
-        this.a = packetdataserializer.c(100);
+        this.a = packetdataserializer.e(100);
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {

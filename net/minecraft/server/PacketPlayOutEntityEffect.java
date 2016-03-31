@@ -42,10 +42,10 @@ public class PacketPlayOutEntityEffect implements Packet<PacketListenerPlayOut> 
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.writeByte(this.b);
         packetdataserializer.writeByte(this.c);
-        packetdataserializer.b(this.d);
+        packetdataserializer.d(this.d);
         packetdataserializer.writeByte(this.e);
     }
 

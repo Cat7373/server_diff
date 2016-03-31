@@ -24,7 +24,7 @@ public class PacketPlayOutUpdateHealth implements Packet<PacketListenerPlayOut> 
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
         packetdataserializer.writeFloat(this.a);
-        packetdataserializer.b(this.b);
+        packetdataserializer.d(this.b);
         packetdataserializer.writeFloat(this.c);
     }
 

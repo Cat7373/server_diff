@@ -24,8 +24,8 @@ public class PacketPlayOutExperience implements Packet<PacketListenerPlayOut> {
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
         packetdataserializer.writeFloat(this.a);
-        packetdataserializer.b(this.c);
-        packetdataserializer.b(this.b);
+        packetdataserializer.d(this.c);
+        packetdataserializer.d(this.b);
     }
 
     public void a(PacketListenerPlayOut packetlistenerplayout) {

@@ -32,7 +32,7 @@ public class PacketPlayOutSpawnEntityWeather implements Packet<PacketListenerPla
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.writeByte(this.e);
         packetdataserializer.writeDouble(this.b);
         packetdataserializer.writeDouble(this.c);

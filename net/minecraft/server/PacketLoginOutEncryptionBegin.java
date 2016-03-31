@@ -18,7 +18,7 @@ public class PacketLoginOutEncryptionBegin implements Packet<PacketLoginOutListe
     }
 
     public void a(PacketDataSerializer packetdataserializer) throws IOException {
-        this.a = packetdataserializer.c(20);
+        this.a = packetdataserializer.e(20);
         this.b = MinecraftEncryption.a(packetdataserializer.a());
         this.c = packetdataserializer.a();
     }

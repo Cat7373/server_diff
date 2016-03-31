@@ -41,7 +41,7 @@ public class PacketPlayOutNamedEntitySpawn implements Packet<PacketListenerPlayO
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.a(this.b);
         packetdataserializer.writeDouble(this.c);
         packetdataserializer.writeDouble(this.d);

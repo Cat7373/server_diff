@@ -10,7 +10,7 @@ public class PacketPlayInResourcePackStatus implements Packet<PacketListenerPlay
     public PacketPlayInResourcePackStatus() {}
 
     public void a(PacketDataSerializer packetdataserializer) throws IOException {
-        this.a = packetdataserializer.c(40);
+        this.a = packetdataserializer.e(40);
         this.status = (PacketPlayInResourcePackStatus.EnumResourcePackStatus) packetdataserializer.a(PacketPlayInResourcePackStatus.EnumResourcePackStatus.class);
     }
 

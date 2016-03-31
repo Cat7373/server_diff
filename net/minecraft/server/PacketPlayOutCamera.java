@@ -17,7 +17,7 @@ public class PacketPlayOutCamera implements Packet<PacketListenerPlayOut> {
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
     }
 
     public void a(PacketListenerPlayOut packetlistenerplayout) {

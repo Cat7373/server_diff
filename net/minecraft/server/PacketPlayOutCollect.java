@@ -20,8 +20,8 @@ public class PacketPlayOutCollect implements Packet<PacketListenerPlayOut> {
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
-        packetdataserializer.b(this.b);
+        packetdataserializer.d(this.a);
+        packetdataserializer.d(this.b);
     }
 
     public void a(PacketListenerPlayOut packetlistenerplayout) {

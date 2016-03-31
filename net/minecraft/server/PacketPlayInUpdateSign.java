@@ -14,7 +14,7 @@ public class PacketPlayInUpdateSign implements Packet<PacketListenerPlayIn> {
         this.b = new String[4];
 
         for (int i = 0; i < 4; ++i) {
-            this.b[i] = packetdataserializer.c(384);
+            this.b[i] = packetdataserializer.e(384);
         }
 
     }

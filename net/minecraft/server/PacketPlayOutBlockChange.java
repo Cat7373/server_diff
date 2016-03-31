@@ -21,7 +21,7 @@ public class PacketPlayOutBlockChange implements Packet<PacketListenerPlayOut> {
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
         packetdataserializer.a(this.a);
-        packetdataserializer.b(Block.REGISTRY_ID.getId(this.block));
+        packetdataserializer.d(Block.REGISTRY_ID.getId(this.block));
     }
 
     public void a(PacketListenerPlayOut packetlistenerplayout) {

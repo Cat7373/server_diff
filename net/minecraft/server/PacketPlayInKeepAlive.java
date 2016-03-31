@@ -17,7 +17,7 @@ public class PacketPlayInKeepAlive implements Packet<PacketListenerPlayIn> {
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
     }
 
     public int a() {

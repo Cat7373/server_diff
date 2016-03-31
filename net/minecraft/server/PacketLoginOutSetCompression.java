@@ -17,7 +17,7 @@ public class PacketLoginOutSetCompression implements Packet<PacketLoginOutListen
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
     }
 
     public void a(PacketLoginOutListener packetloginoutlistener) {

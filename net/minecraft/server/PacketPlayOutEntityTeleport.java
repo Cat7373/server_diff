@@ -35,7 +35,7 @@ public class PacketPlayOutEntityTeleport implements Packet<PacketListenerPlayOut
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.writeDouble(this.b);
         packetdataserializer.writeDouble(this.c);
         packetdataserializer.writeDouble(this.d);

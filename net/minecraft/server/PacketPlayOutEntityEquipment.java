@@ -23,7 +23,7 @@ public class PacketPlayOutEntityEquipment implements Packet<PacketListenerPlayOu
     }
 
     public void b(PacketDataSerializer packetdataserializer) throws IOException {
-        packetdataserializer.b(this.a);
+        packetdataserializer.d(this.a);
         packetdataserializer.a((Enum) this.b);
         packetdataserializer.a(this.c);
     }
